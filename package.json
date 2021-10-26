@@ -25,7 +25,8 @@
         "build": "yarn run build:prod && yarn run build:ssr",
         "heroku-postbuild": "yarn run build:prod && yarn run build:ssr",
         "storybook": "start-storybook -p 6006",
-        "build-storybook": "build-storybook"
+        "build-storybook": "build-storybook",
+        "debug": "nodemon --inspect start.js"
     },
     "author": "",
     "license": "MIT",
